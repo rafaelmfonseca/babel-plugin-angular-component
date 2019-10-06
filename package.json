@@ -1,0 +1,31 @@
+{
+    "name": "babel-plugin-angular-component",
+    "version": "1.0.0",
+    "description": "Babel plugin that adds require() declaration if file contains templateUrl and styleUrls property.",
+    "author": {
+        "name": "Rafael Moreira Fonseca",
+        "email": "ramofojabuka@gmail.com"
+    },
+    "main": "lib",
+    "license": "MIT",
+    "keywords": [
+        "babel",
+        "babel-plugin",
+        "angular",
+        "component",
+        "template",
+        "decorator"
+    ],
+    "scripts": {
+        "clean": "rimraf lib",
+        "build": "babel src -d lib",
+        "test": "jest -u"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.6.2",
+        "@babel/core": "^7.6.2",
+        "jest": "^24.9.0",
+        "rimraf": "^3.0.0"
+    }
+}
