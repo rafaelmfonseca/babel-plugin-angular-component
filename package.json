@@ -7,6 +7,14 @@
         "email": "ramofojabuka@gmail.com"
     },
     "main": "lib",
+    "bugs": {
+        "email": "ramofojabuka@gmail.com",
+        "url": "https://github.com/RafaelMFonseca/babel-plugin-angular-component/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "RafaelMFonseca/babel-plugin-angular-component"
+    },
     "license": "MIT",
     "keywords": [
         "babel",
