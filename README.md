@@ -1,6 +1,6 @@
 # babel-plugin-angular-component
 
-Babel plugin that adds require() declaration if file contains templateUrl and styleUrls property.
+Babel plugin that adds require() declaration if file contains templateUrl and styleUrls properties.
 
 ## Example
 
