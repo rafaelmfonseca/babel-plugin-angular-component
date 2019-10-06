@@ -18,8 +18,8 @@ will be transpiled into something like this:
 
 ```js
 @Component({
-    templateUrl: require("home.component.html").default,
-    styleUrls: [require("home.component.css").default]
+    template: require("home.component.html").default,
+    styles: [require("home.component.css").default]
 })
 export class HomeComponent {}
 ```
@@ -41,7 +41,7 @@ const path = require('path');
 
 module.exports = {
     mode: 'development',
-    devtool: 'hidden-source-map',
+    devtool: 'source-map',
     entry: {
         polyfill: __dirname + '/app/polyfill.ts',
         app: __dirname + '/app/main.ts'
