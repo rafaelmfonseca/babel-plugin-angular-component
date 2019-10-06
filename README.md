@@ -69,9 +69,7 @@ module.exports = {
                     {
                         loader: 'babel-loader',
                         options: {
-                            plugins: [
-                                require('./plugin-angular-template')
-                            ]
+                            plugins: [ 'plugin-angular-template' ]
                         }
                     },
                     {
